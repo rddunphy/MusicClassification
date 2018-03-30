@@ -28,7 +28,7 @@ Particular attention was paid to the effects of varying parameters of input data
 * [Numpy/Scipy](https://scipy.org/install.html)
 * [TensorFlow](https://www.tensorflow.org/install/)
 * [Pydub](https://github.com/jiaaro/pydub)
-* [Bregman](http://digitalmusics.dartmouth.edu/~mcasey/bregman/) (used only in `begman_chroma.py`)
+* [Bregman](http://digitalmusics.dartmouth.edu/~mcasey/bregman/) (used only in `bregman_chroma.py`)
 
 ## External resources
 
