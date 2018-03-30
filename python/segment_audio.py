@@ -8,7 +8,7 @@ from timeit import default_timer as timer
 
 from pydub import AudioSegment
 
-from preprocessing.audio_utilities import valid_file_type
+from audio_utilities import valid_file_type
 
 
 def _write_index(rows, path):

@@ -5,7 +5,7 @@ import csv
 import os
 import pickle
 
-from preprocessing.audio_utilities import print_progress
+from audio_utilities import print_progress
 
 
 def pickle_file(src, out):

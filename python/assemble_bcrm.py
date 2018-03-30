@@ -7,8 +7,8 @@ import shutil
 
 import numpy as np
 
-from preprocessing.audio_utilities import print_progress
-from preprocessing.segment_audio import segment_file
+from audio_utilities import print_progress
+from segment_audio import segment_file
 
 _SAMPLES_PER_COMPOSER = 800
 _SAMPLE_LENGTH = 15  # in seconds
