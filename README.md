@@ -1,6 +1,6 @@
 # Applying machine learning techniques to the classification of classical orchestral music
 
-This  repository contains source code and results for my BEng project at the University of Strathclyde. The final report can be found at `docs/report.pdf`.
+This repository contains source code and results for my final-year BEng project at the University of Strathclyde. A report on this project can be found at `docs/report.pdf`.
 
 ## Abstract
 
@@ -19,16 +19,17 @@ Particular attention was paid to the effects of varying parameters of input data
 ## Repository contents
 
 * `corpus`: Details of the tracks included in the corpus and the datasets, as well as some analytical information about the breakdown of these contents.
-* `docs`: Project documentation and final report.
+* `docs`: Project documentation, including final report and demo slides.
 * `python`: Original code created for this project. All scripts are written in Python 3.6 unless otherwise specified in the file.
 * `results`: Graphs and tabular data summarising the results of training runs.
+* `tf`: TensorFlow checkpoints and graphs to use for classification. Graphs may need to be recompiled from the checkpoints using `python/freeze_graph.py` if TensorFlow versions differ.
 
 ## Dependencies
 
 * [Numpy/Scipy](https://scipy.org/install.html)
 * [TensorFlow](https://www.tensorflow.org/install/)
 * [Pydub](https://github.com/jiaaro/pydub)
-* [Bregman](http://digitalmusics.dartmouth.edu/~mcasey/bregman/) (used only in `bregman_chroma.py`)
+* [Bregman](http://digitalmusics.dartmouth.edu/~mcasey/bregman/) (used only in `bregman_chroma.py` - this library was not used in the final project)
 
 ## External resources
 
