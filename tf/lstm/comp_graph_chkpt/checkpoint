@@ -1,0 +1,6 @@
+model_checkpoint_path: "chkpt_1000"
+all_model_checkpoint_paths: "chkpt_800"
+all_model_checkpoint_paths: "chkpt_850"
+all_model_checkpoint_paths: "chkpt_900"
+all_model_checkpoint_paths: "chkpt_950"
+all_model_checkpoint_paths: "chkpt_1000"
